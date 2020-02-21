@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1077123000957",
+    "firebase_url": "https://books-library-8306e.firebaseio.com",
+    "project_id": "books-library-8306e",
+    "storage_bucket": "books-library-8306e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077123000957:android:d4bf673f6feb5c46b0df14",
+        "android_client_info": {
+          "package_name": "com.polytech.bookslibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077123000957-2d3mo5sbk9ddel4n17pk6bn8cesali67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3n3xiSMpqeqt82Mo1j4-qFyxdNJJKCc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077123000957-2d3mo5sbk9ddel4n17pk6bn8cesali67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
