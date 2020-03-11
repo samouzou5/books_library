@@ -32,10 +32,11 @@ class MainActivity : AppCompatActivity() {
                 username.text.toString(),
                 password.text.toString()
             ).addOnCompleteListener(this, OnCompleteListener<AuthResult> { task ->
+                println(task.isSuccessful)
                 if (task.isSuccessful) {
                     Toast.makeText(applicationContext, "Authent OK", Toast.LENGTH_SHORT).show()
                     redirectToMainBookList()
-                } else {
+                } else if(!task.isSuccessful) {
                     Toast.makeText(applicationContext, "Authent échouée", Toast.LENGTH_SHORT).show()
                 }
             })
